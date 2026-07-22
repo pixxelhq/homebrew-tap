@@ -1,18 +1,18 @@
-# Pixxel Homebrew Formulae
+# Pixxel Homebrew Tap
 
 Homebrew formulae for Pixxel open-source tools.
 
 ## Installation
 
 ```sh
-brew tap pixxelhq/formulae
+brew tap pixxelhq/tap
 brew install clay
 ```
 
 Or install directly:
 
 ```sh
-brew install pixxelhq/formulae/clay
+brew install pixxelhq/tap/clay
 ```
 
 ## Available Formulae
