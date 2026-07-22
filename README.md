@@ -6,10 +6,10 @@ Homebrew formulae for Pixxel open-source tools.
 
 ```sh
 brew tap pixxelhq/tap
-brew install clay
+brew install clay --formula
 ```
 
-Or install directly:
+Or
 
 ```sh
 brew install pixxelhq/tap/clay
