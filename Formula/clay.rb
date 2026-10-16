@@ -5,21 +5,21 @@
 class Clay < Formula
   desc "CLI for packaging ML models as deployable blocks"
   homepage "https://github.com/pixxelhq/clay"
-  version "1.2.0"
+  version "1.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_intel do
-      url "https://github.com/pixxelhq/clay/releases/download/v1.2.0/clay_1.2.0_darwin_amd64.tar.gz"
-      sha256 "3c548586e57fd65f7e066d31eed67163f4a740dba8b27eaf770448a13df62e64"
+      url "https://github.com/pixxelhq/clay/releases/download/v1.3.0/clay_1.3.0_darwin_amd64.tar.gz"
+      sha256 "753c940aa8481146d780fb196166c7832d7970dad70df021752ada7c7a93b26b"
 
       def install
         bin.install "clay"
       end
     end
     on_arm do
-      url "https://github.com/pixxelhq/clay/releases/download/v1.2.0/clay_1.2.0_darwin_arm64.tar.gz"
-      sha256 "aca0ca163f8ca82d7164852c8cee79b7ffa1ebcfd5f3513b166bee3b4b9cdb4f"
+      url "https://github.com/pixxelhq/clay/releases/download/v1.3.0/clay_1.3.0_darwin_arm64.tar.gz"
+      sha256 "f44da09654f6bcc85f846dd79ede02de63a5dc8319cf523b8d7a0e2f916e1613"
 
       def install
         bin.install "clay"
@@ -30,8 +30,8 @@ class Clay < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pixxelhq/clay/releases/download/v1.2.0/clay_1.2.0_linux_amd64.tar.gz"
-        sha256 "a72a514e407934e5218c109178a4943037d22befe0a14b1d822aa4c0505933c6"
+        url "https://github.com/pixxelhq/clay/releases/download/v1.3.0/clay_1.3.0_linux_amd64.tar.gz"
+        sha256 "ca1aa1292608933defe562cf37d9b9a67575cef1682b1250e75fea8e76d80802"
 
         def install
           bin.install "clay"
@@ -40,8 +40,8 @@ class Clay < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/pixxelhq/clay/releases/download/v1.2.0/clay_1.2.0_linux_arm64.tar.gz"
-        sha256 "540cfb55bd77dccad8257507381883b414894a659a1d99df69d91fcb13333933"
+        url "https://github.com/pixxelhq/clay/releases/download/v1.3.0/clay_1.3.0_linux_arm64.tar.gz"
+        sha256 "40e29854ae6d7a71eddd1bd234ea17577ccf799fea4ba121dbe1efd4047f3e0d"
 
         def install
           bin.install "clay"
